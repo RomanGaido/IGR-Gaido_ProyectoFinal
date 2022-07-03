@@ -1,0 +1,81 @@
+.Index {
+    background-image: url("../img/fondo2.jpg");
+}
+
+body{
+    background-image: url("../img/fondo3light.jpg");
+}
+.textoIndex {
+    font-family: 'Averia Gruesa Libre', cursive;
+    background-color:rgba(250, 235, 215, 0.589);
+    color: black;
+    text-shadow: 3px 3px 10px rgb(24, 102, 0);
+}
+
+header .Isotipo {
+    font-size: 600%;
+    color: white;
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    font-family: 'Saira Stencil One', cursive;
+}
+header .slogan{
+    font-size: 300%;
+    color: white;
+    text-shadow: 5px 5px 15px rgb(0, 0, 0);
+    font-family: 'Rowdies', cursive;
+}
+.TusProyectos {
+    font-size: 400%;
+}
+
+.cardIndex {
+    /* background-color: rgb(2, 192, 2); */
+    background-color: rgb(36, 36, 36);
+    border: 1px solid green;
+}
+
+.card-textIndex {
+    color: white;
+}
+
+.tarjetaNosotros {
+    background-color: rgb(0, 0, 0);
+}
+
+.tarjetaNosotros p {
+    color: white;
+}
+
+.tarjetaNosotros{
+    border: 1px solid blue;
+}
+.descripcionMision {
+    display: none;
+}
+.descripcionVision {
+    display: none;
+}
+.descripcionValores {
+    display: none;
+}
+
+.tarjetaNosotros:hover .descripcionMision{
+    display: block;
+}
+.tarjetaNosotros:hover .imagenMision{
+    display: none;
+}
+
+.tarjetaNosotros:hover .descripcionVision{
+    display: block;
+}
+.tarjetaNosotros:hover .imagenVision{
+    display: none;
+}
+
+.tarjetaNosotros:hover .descripcionValores{
+    display: block;
+}
+.tarjetaNosotros:hover .imagenValores{
+    display: none;
+}
